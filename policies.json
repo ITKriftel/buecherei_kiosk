@@ -1,0 +1,154 @@
+{
+  "policies": {
+    "3rdparty": {
+      "Extensions": {
+        "uBlock0@raymondhill.net": {
+          "adminSettings": {
+            "selectedFilterLists": [
+              "user-filters",
+              "ublock-filters",
+              "ublock-badware",
+              "ublock-privacy",
+              "ublock-quick-fixes",
+              "ublock-abuse",
+              "ublock-unbreak",
+              "adguard-generic",
+              "adguard-mobile",
+              "easylist",
+              "adguard-spyware-url",
+              "block-lan",
+              "easyprivacy",
+              "urlhaus-1",
+              "curben-phishing",
+              "curben-pup",
+              "plowe-0"
+            ],
+            "userFilters": "! Block 'Supporting Startpage is easy'\nwww.startpage.com###block-display\n"
+          }
+        }
+      }
+    },
+    "BlockAboutAddons": true,
+    "BlockAboutConfig": true,
+    "BlockAboutProfiles": true,
+    "Cookies": {
+      "Behavior": "limit-foreign",
+      "ExpireAtSessionEnd": true,
+      "Locked": true
+    },
+    "DisableDeveloperTools": true,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisableMasterPasswordCreation": true,
+    "DisablePocket": true,
+    "DisablePrivateBrowsing": true,
+    "DisableProfileImport": true,
+    "DisableSafeMode": true,
+    "DisableSecurityBypass": {
+      "InvalidCertificate": true,
+      "SafeBrowsing": true
+    },
+    "DisableSetDesktopBackground": true,
+    "DisableSystemAddonUpdate": true,
+    "DisplayBookmarksToolbar": "always",
+    "DNSOverHTTPS": {
+      "Enabled": true,
+      "ProviderURL": "https://family.cloudflare-dns.com/dns-query",
+      "Locked": true
+    },
+    "EnableTrackingProtection": {
+      "Value": false,
+      "Locked": false,
+      "Cryptomining": true,
+      "Fingerprinting": true,
+      "EmailTracking": true
+    },
+    "ExtensionSettings": {
+      "*": {
+        "blocked_install_message": "Installing extensions is forbidden by your administrator.",
+        "installation_mode": "blocked"
+      },
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+      },
+      "{036a55b4-5e72-4d05-a06c-cba2dfcc134a}": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/traduzir-paginas-web/latest.xpi"
+      }
+    },
+    "ExtensionUpdate": true,
+    "FirefoxHome": {
+      "Search": true,
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "Snippets": false,
+      "Locked": true
+    },
+    "Homepage": {
+      "URL": "https://webopac.winbiap.de/kriftel/index.aspx",
+      "Locked": true,
+      "StartPage": "homepage-locked"
+    },
+    "ManagedBookmarks": [
+      {
+        "toplevel_name": "Lesezeichen"
+      },
+      {
+        "url": "https://webopac.winbiap.de/kriftel/index.aspx",
+        "name": "Gemeindebücherei"
+      },
+      {
+        "url": "https://kriftel.de",
+        "name": "Gemeinde Kriftel"
+      },
+      {
+        "url": "https://www.centos.org",
+        "name": "CentOS"
+      },
+      {
+        "url": "https://codeberg.org/Silejonu/Public-facing_machine_with_home_loaded_in_RAM",
+        "name": "Public-facing machine with home loaded in RAM"
+      }
+    ],
+    "NoDefaultBookmarks": true,
+    "OfferToSaveLogins": false,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "PrimaryPassword": false,
+    "PopupBlocking": {
+      "Allow": ["https://mail.google.com",
+                "https://www.canva.com"],
+      "Default": true,
+      "Locked": false
+    },
+    "PromptForDownloadLocation": false,
+    "Proxy": {
+      "Mode": "autoDetect",
+      "Locked": true,
+      "Passthrough": "",
+      "AutoLogin": false,
+      "UseProxyForDNS": false
+    },
+    "RequestedLocales": "de,en-US",
+    "SanitizeOnShutdown": true,
+    "SearchBar": "unified",
+    "SearchEngines": {
+      "Default": "Ecosia"
+    },
+    "SearchSuggestEnabled": true,
+    "ShowHomeButton": true,
+    "UserMessaging": {
+      "WhatsNew": false,
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "UrlbarInterventions": false,
+      "SkipOnboarding": true,
+      "MoreFromMozilla": false
+    },
+    "UseSystemPrintDialog": false
+  }
+}
