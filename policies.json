@@ -104,14 +104,6 @@
       {
         "url": "https://kriftel.de",
         "name": "Gemeinde Kriftel"
-      },
-      {
-        "url": "https://www.centos.org",
-        "name": "CentOS"
-      },
-      {
-        "url": "https://codeberg.org/Silejonu/Public-facing_machine_with_home_loaded_in_RAM",
-        "name": "Public-facing machine with home loaded in RAM"
       }
     ],
     "NoDefaultBookmarks": true,
