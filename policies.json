@@ -63,10 +63,6 @@
       "Fingerprinting": true,
       "EmailTracking": true
     },
-    "Extensions": {
-      "Install": ["langpack-de@firefox.mozilla.org"],
-      "Lock": ["langpack-de@firefox.mozilla.org"]
-    },
     "ExtensionSettings": {
       "*": {
         "blocked_install_message": "Installing extensions is forbidden by your administrator.",
@@ -79,6 +75,10 @@
       "{036a55b4-5e72-4d05-a06c-cba2dfcc134a}": {
         "installation_mode": "force_installed",
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/traduzir-paginas-web/latest.xpi"
+      },
+      "langpack-de@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/langpack-de@firefox.mozilla.org/latest.xpi"
       }
     },
     "ExtensionUpdate": true,
@@ -132,7 +132,7 @@
       "AutoLogin": false,
       "UseProxyForDNS": false
     },
-    "RequestedLocales": ["de", "en-US"],
+    "RequestedLocales": ["de", "en-US", "en"],
     "SanitizeOnShutdown": true,
     "SearchBar": "unified",
     "SearchEngines": {
