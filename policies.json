@@ -97,9 +97,6 @@
       "Locked": true,
       "StartPage": "homepage-locked"
     },
-    "Localization": {
-      "ForceAppLocales": ["de"]
-    },
     "ManagedBookmarks": [
       {
         "toplevel_name": "Lesezeichen"
