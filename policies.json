@@ -63,6 +63,10 @@
       "Fingerprinting": true,
       "EmailTracking": true
     },
+    "Extensions": {
+      "Install": ["langpack-de@firefox.mozilla.org"],
+      "Lock": ["langpack-de@firefox.mozilla.org"]
+    },
     "ExtensionSettings": {
       "*": {
         "blocked_install_message": "Installing extensions is forbidden by your administrator.",
@@ -92,6 +96,9 @@
       "URL": "https://webopac.winbiap.de/kriftel/index.aspx",
       "Locked": true,
       "StartPage": "homepage-locked"
+    },
+    "Localization": {
+      "ForceAppLocales": ["de"]
     },
     "ManagedBookmarks": [
       {
@@ -125,7 +132,7 @@
       "AutoLogin": false,
       "UseProxyForDNS": false
     },
-    "RequestedLocales": "de,en-US",
+    "RequestedLocales": ["de", "en-US"],
     "SanitizeOnShutdown": true,
     "SearchBar": "unified",
     "SearchEngines": {
