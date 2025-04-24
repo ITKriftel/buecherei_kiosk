@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 # Add Tweaks here
 
 # Autostart Firefox
