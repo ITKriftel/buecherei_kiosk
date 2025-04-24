@@ -1,7 +1,9 @@
 # Add Tweaks here
 
 # Autostart Firefox
-sudo tee ~/.config/autostart/firefox.desktop << EOF > /dev/null
+mkdir -p "$HOME/.config/autostart"
+
+cat > "$HOME/.config/autostart/firefox.desktop" <<EOL
 [Desktop Entry]
 Type=Application
 Exec=firefox
@@ -10,4 +12,4 @@ NoDisplay=false
 X-GNOME-Autostart-enabled=true
 Name=Firefox
 Comment=Startet Firefox beim Anmelden
-EOF
+EOL
