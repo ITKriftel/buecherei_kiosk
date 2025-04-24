@@ -2,9 +2,9 @@
 # Add Tweaks here
 
 # Autostart Firefox
-mkdir -p "$HOME/.config/autostart"
+sudo mkdir -p "/home/kribu/.config/autostart"
 
-cat > "$HOME/.config/autostart/firefox.desktop" <<EOL
+sudo cat > "/home/kribu/.config/autostart/firefox.desktop" <<EOL
 [Desktop Entry]
 Type=Application
 Exec=firefox
